@@ -5,18 +5,42 @@ The purpose of this analysis is to use resampling to train and evaluate models w
 
 ## Results
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
-- Naive Random Oversampling: 
-  - balanced accuracy score 0.6463970560994359, precision 0.01, recall 0.71
-- SMOTE Oversampling: 
-  - balanced accuracy score 0.6586230769943224, precision 0.01, recall 0.63
-- Undersampling: 
-  - balanced accuracy score 0.5442369453268994, precision 0.01, recall 0.69
-- Combination (Over and Under) Sampling: 
-  - balanced accuracy score 0.6480442302883235, precision 0.01, recall 0.72
-- Balanced Random Forest Classifier: 
-  - balanced accuracy score 0.7844011748069183, precision 0.03, recall 0.68
-- Easy Ensemble AdaBoost Classifier: 
-  - balanced accuracy score 0.925427358175101, precision 0.07, recall 0.91
+### Naive Random Oversampling: 
+- balanced accuracy score 0.6463970560994359
+- precision 0.01, low for High-risk loans, high for Low-risk loans
+- recall 0.71/0.58
+
+![img1](https://github.com/siqiou/Credit_Risk_Analysis/blob/6616e8d81f4e9ce277683b0148be4442c1021bf3/images/Naive%20Random%20Oversampling.png)
+### SMOTE Oversampling: 
+- balanced accuracy score 0.6586230769943224
+- precision 0.01, low for High-risk loans, high for Low-risk loans
+- recall 0.63/0.68
+
+![img2](https://github.com/siqiou/Credit_Risk_Analysis/blob/6616e8d81f4e9ce277683b0148be4442c1021bf3/images/SMOTE%20Oversampling.png)
+### Undersampling: 
+- balanced accuracy score 0.5442369453268994 
+- precision 0.01, low for High-risk loans, high for Low-risk loans
+- recall 0.69/0.40
+
+![img3](https://github.com/siqiou/Credit_Risk_Analysis/blob/6616e8d81f4e9ce277683b0148be4442c1021bf3/images/Undersampling.png)
+### Combination (Over and Under) Sampling: 
+- balanced accuracy score 0.6480442302883235
+- precision 0.01
+- recall 0.72/0.57
+
+![img4](https://github.com/siqiou/Credit_Risk_Analysis/blob/6616e8d81f4e9ce277683b0148be4442c1021bf3/images/Comnbination%20Sampling.png)
+### Balanced Random Forest Classifier: 
+- balanced accuracy score 0.7844011748069183
+- precision 0.03
+- recall 0.68/0.89
+
+![img5](https://github.com/siqiou/Credit_Risk_Analysis/blob/6616e8d81f4e9ce277683b0148be4442c1021bf3/images/Balanced.png)
+### Easy Ensemble AdaBoost Classifier: 
+- balanced accuracy score 0.925427358175101
+- precision 0.07
+- recall 0.91/0.94
+
+![img6](https://github.com/siqiou/Credit_Risk_Analysis/blob/6616e8d81f4e9ce277683b0148be4442c1021bf3/images/EaseEnsember.png)
 
 
 ## Summary
