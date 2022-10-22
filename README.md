@@ -1,7 +1,11 @@
 # Credit_Risk_Analysis
 ## Overview of the loan prediction risk analysis
 
-The purpose of this analysis is to use resampling to train and evaluate models with unbalanced classes, and evaluate the performance of these models to give recommendation on predicting credit card risk. We will use imbalanced-learn and scikit-learn libraries to build and evaluate the performance of 6 different machine learning models. The credit card credit dataset used is from LendingClub.
+The purpose of this analysis is to use resampling to train and evaluate models with unbalanced classes, and evaluate the performance of these models to give recommendation on predicting credit card risk. 
+
+We will use imbalanced-learn and scikit-learn libraries to build and evaluate the performance of 6 different machine learning models: RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier, and EasyEnsembleClassifier. 
+
+The credit card credit dataset used is from LendingClub.
 
 ## Results
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
